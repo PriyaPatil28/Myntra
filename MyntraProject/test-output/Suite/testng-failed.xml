@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="HomeUrl" value="https://www.myntra.com/"/>
+  <listeners>
+    <listener class-name="com.qa.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.testscripts.TC_HomeAndLiving_001">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Myntra_001" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.TC_HomeAndLiving_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

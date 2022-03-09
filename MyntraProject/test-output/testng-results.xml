@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-09T10:39:35 IST" name="Myntra" finished-at="2022-03-09T10:41:27 IST" duration-ms="111978">
+    <groups>
+    </groups>
+    <test started-at="2022-03-09T10:39:35 IST" name="Test" finished-at="2022-03-09T10:41:27 IST" duration-ms="111978">
+      <class name="com.qa.testscripts.TC_HomeAndLiving_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_HomeAndLiving_001@550dbc7a]" started-at="2022-03-09T10:39:35 IST" name="setUp" finished-at="2022-03-09T10:40:31 IST" duration-ms="56335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.myntra.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Myntra_001(java.lang.reflect.Method)[pri:0, instance:com.qa.testscripts.TC_HomeAndLiving_001@550dbc7a]" started-at="2022-03-09T10:40:31 IST" name="Myntra_001" finished-at="2022-03-09T10:41:26 IST" duration-ms="55015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testscripts.TC_HomeAndLiving_001.Myntra_001(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Myntra_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_HomeAndLiving_001@550dbc7a]" started-at="2022-03-09T10:41:26 IST" name="tearDown" finished-at="2022-03-09T10:41:27 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_HomeAndLiving_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Myntra -->
+</testng-results>
